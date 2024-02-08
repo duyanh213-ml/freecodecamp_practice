@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Form</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form-block">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+        <form action="" id="survey-form">
+            <label class="label-text" id="name-label" for="name">Name <br> <input class="input-text" id="name"
+                    name="name" type="text" required placeholder="Enter your name"></label>
+            <label class="label-text" id="email-label" for="email">Email <br> <input class="input-text" id="email"
+                    name="email" type="email" required placeholder="Enter your email"></label>
+            <label class="label-text" id="number-label" for="number">Number <br> <input class="input-text" id="number"
+                    name="number" type="number" min=13 max=120 placeholder="Enter your number"></label>
+
+            <label class="for-option" for="dropdown">
+                Select:
+                <select name="dropdown" id="dropdown">
+                    <option  value="1">Challenges</option>
+                    <option  value="2">Projects</option>
+                </select>
+
+            </label>
+
+            <br>
+            <br>
+
+            <legend class="legend-class">Would you recommend freeCodeCamp to a friend?</legend>
+
+            <label class="label-checkbox" id="yes" for="yes"><input class="option" id="yes" name="choice" type="radio" value="yes"
+                    checked>Yes</label>
+            <label class="label-checkbox" id="no" for="no"><input class="option" id="no" name="choice" type="radio"
+                    value="no">No</label>
+
+            <br>
+
+            <legend class="legend-class">What would you like to see improved? (Check all that apply)</legend>
+
+            <label class="label-checkbox" for="front-end"><input class="option" name="front-end" type="checkbox"
+                    value="Front-end Projects">Front-end
+                Projects</label>
+            <label class="label-checkbox" for="back-end"><input class="option" name="back-end" type="checkbox"
+                    value="Back-end Projects">Back-end
+                Projects</label>
+            <label class="label-checkbox" for="visualization"><input class="option" name="visualization" type="checkbox"
+                    value="Data Visualization">Data
+                Visualization</label>
+            <label class="label-checkbox" for="challenges"><input class="option" name="challenges" type="checkbox"
+                    value="Challenges">Challenges</label>
+            <label class="label-checkbox" for="meetups"><input class="option" name="meetups" type="checkbox" value="City Meetups">City
+                Meetups</label>
+
+            <br>
+            <br>
+            <label class="label-checkbox label-textarea" for="comment">
+                <legend>
+                    Any comments or suggestions?
+                </legend>
+                <textarea class="input-text" name="comment" id="comment" rows=5 cols=60
+                    placeholder="Please give some comments here..."></textarea>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="submit" name="submit">
+                <input id="submit" type="submit" value="Submit">
+            </label>
+        </form>
+
+        <footer style="margin-top: 40px;">
+            <p style="font-family: 'Times New Roman', Times, serif; font-style: normal;">
+                Copyrigt from <a target="_blank" style="color: aliceblue;" href="https://www.freecodecamp.org/">freecodecamp</a>
+            </p>
+        </footer>
+    </div>
+
+
+    
+</body>
+
+</html>
