@@ -6,10 +6,11 @@
 }
 
 .frame {
-    border: solid black 50px;
+    border: solid rgb(41, 104, 41) 50px;
     width: 500px;
     padding: 50px;
     margin: 20px auto;
+    border-radius: 50px;
 }
 
 .one {
